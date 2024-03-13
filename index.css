@@ -1,0 +1,238 @@
+.heading{
+    color: slategray;
+    background-color: aquamarine;
+    font-family: calibri;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+h2{
+    color: #4169E1;
+    background-color: cornsilk;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+nav{
+    text-align: center;
+}
+nav h4{
+    height: 2em;
+    width: 4em;
+    display: inline-block;
+    background-color: silver;
+    color: cyan;
+    box-shadow: 2px 2px;
+    text-decoration: underline;
+    font-weight: 800;
+    margin: 5px;
+    text-align: center;
+
+}
+nav h4:hover{
+    color:  blue;
+    background-color: aqua;
+    text-decoration: none;
+}
+nav h4:active{
+    color: blueviolet;
+    background-color: turquoise;
+}
+
+#section{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 50px;
+    border-style: double;
+    border-color: blueviolet;
+    border-width: 3px;
+}
+
+.color h5{
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.underline{
+    text-decoration: underline;
+}
+.font {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0 20px;
+
+}
+.style{
+    display: block;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+.default{
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px;
+    height: 1em;
+    width: 3em;
+    text-align: center;
+
+    
+
+
+}
+.hover{
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: darkturquoise;
+    box-shadow: 2px 2px;
+    height: 1em;
+    width: 3em;
+    text-align: center;
+
+}
+.active{
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(103, 41, 248);
+    font-weight: bold;
+    height: 1em;
+    width: 3em;
+    text-align: center;
+}
+.disabled{
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: rgb(145, 143, 143);
+    background-color: rgb(44, 44, 44);
+    box-shadow: 2px 2px;
+    height: 1em;
+    width: 3em;
+    text-align: center;
+
+}
+.visited{
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: rgb(255, 162, 247);
+    background-color: rgb(180, 48, 180);
+    box-shadow: 2px 2px;
+    height: 1em;
+    width: 3em;
+    text-align: center;
+}
+.button{
+    text-align: center;
+}
+.button p{
+    align-content: center;
+    display: inline-block;
+    margin: 20px;
+}
+.button div p{
+    text-align: center;
+    display: inline-block;
+}
+#example-button{
+    display: inline-block;
+    
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px;
+    height: 1em;
+    width: 3em;
+    text-align: center;
+}
+#example-button:hover{
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: darkturquoise;
+    box-shadow: 2px 2px;
+    height: 1em;
+    width: 3em;
+    text-align: center;
+
+}
+#example-button:active{
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(103, 41, 248);
+    box-shadow: 0px 0px;
+    height: 1em;
+    width: 3em;
+    text-align: center;
+}
+#example-button:visited{
+    
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: rgb(255, 162, 247);
+    background-color: rgb(180, 48, 180);
+    
+    height: 1em;
+    width: 3em;
+    text-align: center;
+}
+.outerborder{
+    border-width: 4px;
+    border-style: double;
+    border-color: blueviolet;
+    margin: 30px;
+    padding: 30px;
+
+}
+.sectionborder{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: rgb(43, 55, 226);
+    margin: 30px;
+    padding: 30px;
+
+}
+.innerboder{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(37, 165, 43);
+    margin: 30px;
+    padding: 30px;
+}
